@@ -73,3 +73,7 @@ section.profielen {
     max-width: 350px; /* Optioneel: beperkt de maximale breedte van de afbeeldingen */
     margin-bottom: 20px; /* Ruimte tussen de afbeeldingen */
 }
+
+.profielen img:first-child {
+    margin-top: 10em;
+}
