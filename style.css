@@ -22,7 +22,7 @@ body {
     overflow-y: auto; /* Toont verticale schuifbalken indien nodig */
 }
 
-/* Media query voor schermen met een breedte tot 375px en hoogte tot 667px (iPhone-achtig) */
+/* Media query voor schermen met een breedte tot 414px en hoogte tot 896px (iPhone-achtig) */
 @media (max-width: 414px) and (max-height: 896px) {
     /* Aanvullende stijlen voor kleinere schermen, bijvoorbeeld voor iPhone */
     body {
