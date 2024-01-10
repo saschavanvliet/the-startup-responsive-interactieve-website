@@ -1,7 +1,6 @@
 body {
     background-color: #171717; /* Vervang deze kleurcode door de gewenste kleur */
     font-family: Arial, sans-serif;
-    margin-top: 20px;
     margin: 0;
     padding: 0;
     max-width: 414px; /* Maximale breedte van de body */
@@ -20,6 +19,15 @@ body {
     }
 }
 
+.blue-section {
+    height: 17em;
+    background-color: #001717;
+    display: flex;
+    align-items: center;
+    min-height: 30em;
+    max-width: 414px;
+  }
+
 section.profielen {
     max-width: 414px;
     display: flex;
@@ -36,12 +44,3 @@ section.profielen {
     max-width: 350px; /* Optioneel: beperkt de maximale breedte van de afbeeldingen */
     margin-bottom: 20px; /* Ruimte tussen de afbeeldingen */
 }
-
-.blue-section {
-    height: 17em;
-    background-color: #001717;
-    display: flex;
-    align-items: center;
-    min-height: 30em;
-    max-width: 414px;
-  }
