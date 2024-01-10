@@ -1,5 +1,6 @@
 :root {
 --primary-color: #00D146;
+--secundary-color: #D1D1D1;
 --font-family: 'Ubuntu', sans-serif;
 --font-size: 14px;
 }
@@ -66,6 +67,12 @@ section.profielen {
     align-items: center;
     min-height: 70em;
     width: 100%; /* Zorgt ervoor dat de afbeeldingen de volledige breedte van de sectie innemen */
+}
+
+section h2 {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    color: var(--secundary-color);
 }
 
 .profielen img {
