@@ -126,15 +126,20 @@ img {
 
 button#contactformulier {
     position: absolute;
-    left: 15em;
+    left: 14em;
     top: 1.5em;
     width: 10em;
     border-color: var(--primary-color);
 }
 
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
 button#dropdownButton {
     position: absolute;
-    left: 26em;
+    left: 25em;
     top: 1.5em;
 }
 
@@ -146,6 +151,7 @@ button#dropdownButton {
     left: 0;
     background-color: #001717;
     opacity: 80%;
+    padding: 0;
     z-index: 1; /* Zorg ervoor dat het menu boven andere elementen staat */
 }
 
