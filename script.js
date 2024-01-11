@@ -6,25 +6,6 @@
 
 
 
-// DE GOEIE!!!
-// document.addEventListener('DOMContentLoaded', function () {
-//     let dropdownButton = document.getElementById('dropdownButton');
-//     let dropdownMenu = document.getElementById('dropdownMenu');
-
-//     dropdownButton.addEventListener('click', function () {
-//         // Toggle de weergave van het dropdown-menu
-//         dropdownMenu.style.display = (dropdownMenu.style.display === 'block') ? 'none' : 'block';
-//     });
-
-//     // Sluit het dropdown-menu als er buiten wordt geklikt
-//     document.addEventListener('click', function (event) {
-//         if (!dropdownMenu.contains(event.target) && event.target !== dropdownButton) {
-//             dropdownMenu.style.display = 'none';
-//         }
-//     });
-// });
-
-
 // let img = document.querySelector('img')
 // foto1.addEventListener('click', nieuw)
 // function nieuw() {
@@ -47,6 +28,22 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    let dropdownButton = document.getElementById('dropdownButton');
+    let dropdownMenu = document.getElementById('dropdownMenu');
+
+    dropdownButton.addEventListener('click', function () {
+        // Toggle de weergave van het dropdown-menu
+        dropdownMenu.style.display = (dropdownMenu.style.display === 'block') ? 'none' : 'block';
+    });
+
+    // Sluit het dropdown-menu als er buiten wordt geklikt
+    document.addEventListener('click', function (event) {
+        if (!dropdownMenu.contains(event.target) && event.target !== dropdownButton) {
+            dropdownMenu.style.display = 'none';
+        }
+    });
+});
 
 // document.addEventListener('DOMContentLoaded', function () {
 //     const profielen = document.getElementById('img');

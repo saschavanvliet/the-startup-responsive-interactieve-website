@@ -1,4 +1,5 @@
 :root {
+--background-color: #171717;
 --primary-color: #00D146;
 --secundary-color: #D1D1D1;
 --font-family: 'Ubuntu', sans-serif;
@@ -11,7 +12,7 @@
 }
 
 body {
-    background-color: #171717; /* Vervang deze kleurcode door de gewenste kleur */
+    background-color: var(--background-color); /* Vervang deze kleurcode door de gewenste kleur */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -34,7 +35,6 @@ body {
 h1 {
     color: white;
     font-size: 30px;
-    text-align: center;
     margin-bottom: 20px;
     margin-top: 5em;
     display: block;
@@ -110,22 +110,42 @@ button {
     left: 2.2em;
 }
 
-.notfixed{
+.notfixed {
     position: absolute;
     top: 3em;
     left: 5em;
+}
+
+.visible{
+    display:none
 }
 
 img {
     cursor: pointer;
 }
 
+button#contactformulier {
+    position: absolute;
+    left: 15em;
+    top: 1.5em;
+    width: 10em;
+    border-color: var(--primary-color);
+}
+
+button#dropdownButton {
+    position: absolute;
+    left: 26em;
+    top: 1.5em;
+}
+
 #dropdownMenu {
     display: none;
+    width: 100%;
     position: absolute;
-    top: 50px; /* Afstand vanaf de bovenkant van de pagina */
+    top: 4.9em; 
     left: 0;
-    background-color: #333;
+    background-color: #001717;
+    opacity: 80%;
     z-index: 1; /* Zorg ervoor dat het menu boven andere elementen staat */
 }
 
@@ -147,7 +167,7 @@ img {
 }
 
 .dropdown-menu ul li:hover {
-    background-color: #555;
+    background-color: var(--background-color);
 }
 
 .dropdown-menu ul li ul {
@@ -156,7 +176,7 @@ img {
     top: 0;
     left: 100%;
     width: 200px;
-    background-color: #333;
+    background-color: var(--background-color);
 }
 
 .dropdown-menu ul li:hover > ul {
