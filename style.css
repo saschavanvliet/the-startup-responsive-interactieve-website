@@ -36,8 +36,8 @@ h1 {
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 5em;
     display: block;
-    margin-bottom: 20px;
 }
 
 p {
@@ -54,6 +54,7 @@ p {
     background-color: #001717;
     display: flex;
     align-items: center;
+    flex-direction: column;
     min-height: 20em;
     max-width: 414px;
   }
@@ -84,3 +85,115 @@ section h2 {
 .profielen img:first-child {
     margin-top: 10em;
 }
+
+button {
+    background-color: #171717;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 57em;
+    top: 2em;
+    background: rgba(27, 27, 27, 0.85);
+    border: 1px solid #585858;
+    border-radius: 24px;
+}
+
+
+#dropdownMenu {
+    display: none;
+    position: absolute;
+    top: 50px; /* Afstand vanaf de bovenkant van de pagina */
+    left: 0;
+    background-color: #333;
+    z-index: 1; /* Zorg ervoor dat het menu boven andere elementen staat */
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu ul li {
+    display: block;
+}
+
+.dropdown-menu ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu ul li:hover {
+    background-color: #555;
+}
+
+.dropdown-menu ul li ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    background-color: #333;
+}
+
+.dropdown-menu ul li:hover > ul {
+    display: block;
+}
+
+/* Voor de grotere site!!
+button {
+    width: 24px;
+    height: 24px;
+}
+
+nav.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+
+nav.dropdown-menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav.dropdown-menu ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav.dropdown-menu ul li:hover {
+    background-color: #555;
+}
+
+nav.dropdown-menu ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #333;
+}
+
+nav.dropdown-menu ul li:hover > ul {
+    display: block;
+}
+
+nav.dropdown-menu ul li ul li {
+    display: block;
+    width: 100%;
+}
+
+nav.dropdown-menu ul li ul li a {
+    padding: 10px 15px;
+} */
