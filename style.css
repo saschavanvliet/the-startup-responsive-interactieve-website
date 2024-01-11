@@ -38,6 +38,8 @@ h1 {
     margin-bottom: 20px;
     margin-top: 5em;
     display: block;
+    padding-bottom: 0.3em;
+    border-bottom: 0.15em solid var(--primary-color);
 }
 
 p {
