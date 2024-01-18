@@ -1,8 +1,8 @@
-// let svg = document.querySelector('svg:nth-of-type(1)')
-// svg.addEventListener('click', menu)
-// function menu() {
-// svg.classList.toggle('streepjes')
-// }
+let svg = document.querySelector('svg:nth-of-type(1)')
+svg.addEventListener('click', menu)
+function menu() {
+svg.classList.toggle('streepjes')
+}
 
 
 
@@ -12,7 +12,7 @@
 // img.classList.toggle('nieuw')
 // }
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () { 
     const svgElement = document.querySelector('.notfixed');
 
     window.addEventListener('scroll', function () {
@@ -28,22 +28,44 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () { //Dit is extra!!!
     let dropdownButton = document.getElementById('dropdownButton');
     let dropdownMenu = document.getElementById('dropdownMenu');
-
-    dropdownButton.addEventListener('click', function () {
-        // Toggle de weergave van het dropdown-menu
-        dropdownMenu.style.display = (dropdownMenu.style.display === 'block') ? 'none' : 'block';
-    });
-
-    // Sluit het dropdown-menu als er buiten wordt geklikt
-    document.addEventListener('click', function (event) {
-        if (!dropdownMenu.contains(event.target) && event.target !== dropdownButton) {
-            dropdownMenu.style.display = 'none';
-        }
-    });
+    let container = document.getElementById('container');
 });
+
+    //Menu komt tevoorschijn!
+    dropdownButton.addEventListener('click', menu)
+    function menu() {
+      dropdownMenu.classList.toggle('active');
+    };
+
+    // Toggle de weergave van de container wanneer op de knop wordt geklikt
+    dropdownButton.addEventListener('click', ruimte)
+    function ruimte() {
+      container.classList.toggle = ('container.show')
+    };
+
+
+
+// De goeie!!
+// document.addEventListener('DOMContentLoaded', function () {
+//     let dropdownButton = document.getElementById('dropdownButton');
+//     let dropdownMenu = document.getElementById('dropdownMenu');
+
+//     dropdownButton.addEventListener('click', function () {
+//         // Toggle de weergave van het dropdown-menu
+//         dropdownMenu.style.display = (dropdownMenu.style.display === 'block') ? 'none' : 'block';
+//     });
+
+//     // Sluit het dropdown-menu als er buiten wordt geklikt
+//     document.addEventListener('click', function (event) {
+//         if (!dropdownMenu.contains(event.target) && event.target !== dropdownButton) {
+//             dropdownMenu.style.display = 'none';
+//         }
+//     });
+// });
+
 
 // document.addEventListener('DOMContentLoaded', function () {
 //     const profielen = document.getElementById('img');

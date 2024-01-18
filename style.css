@@ -145,16 +145,18 @@ button#dropdownButton {
     top: 1.5em;
 }
 
-#dropdownMenu {
+.dropdown-menu {
     display: none;
-    width: 100%;
+    width: 414px;
     position: absolute;
     top: 4.9em; 
     left: 0;
     background-color: #001717;
-    opacity: 80%;
-    padding: 0;
-    z-index: 1; /* Zorg ervoor dat het menu boven andere elementen staat */
+    padding: 0; 
+}
+
+.dropdown-menu.active {
+    display: block;
 }
 
 .dropdown-menu ul {
@@ -189,6 +191,14 @@ button#dropdownButton {
 
 .dropdown-menu ul li:hover > ul {
     display: block;
+}
+
+.container {
+    display: block;
+}
+
+.container.show {
+    margin-top: 10em;
 }
 
 /* Voor de grotere site!!
