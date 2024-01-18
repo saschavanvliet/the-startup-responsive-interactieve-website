@@ -23,13 +23,8 @@ body {
     overflow-y: auto; /* Toont verticale schuifbalken indien nodig */
 }
 
-/* Media query voor schermen met een breedte tot 414px en hoogte tot 896px (iPhone-achtig) */
-@media (max-width: 414px) {
-    /* Aanvullende stijlen voor kleinere schermen, bijvoorbeeld voor iPhone */
-    body {
-        font-size: 14px;
-        /* Aanvullende stijlen specifiek voor kleinere schermen */
-    }
+.eerstefoto {
+    display: none;
 }
 
 h1 {
@@ -81,10 +76,9 @@ section h2 {
 }
 
 .profielen img {
-    width: 100%;
-    max-width: 350px; /* Optioneel: beperkt de maximale breedte van de afbeeldingen */
-    margin-bottom: 20px; /* Ruimte tussen de afbeeldingen */
+    margin-bottom: 2em; /* Ruimte tussen de afbeeldingen */
     border-radius: 7%;
+    width: 350px;
 }
 
 .profielen img:first-child {
@@ -201,6 +195,11 @@ button#dropdownButton {
     display: block;
 }
 
+@media only screen and (min-width: 820px){
+    .eerstefoto {
+        display: block;
+    }
+}
 /* Voor de grotere site!!
 button {
     width: 24px;
