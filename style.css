@@ -16,7 +16,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    max-width: 414px; /* Maximale breedte van de body */
+    /* max-width: 414px; Maximale breedte van de body */
     margin-left: auto; /* Centreren van de body op het scherm */
     margin-right: auto;
     overflow-x: hidden; /* Verbergt horizontale schuifbalken */
@@ -24,7 +24,7 @@ body {
 }
 
 /* Media query voor schermen met een breedte tot 414px en hoogte tot 896px (iPhone-achtig) */
-@media (max-width: 414px) and (max-height: 896px) {
+@media (max-width: 414px) {
     /* Aanvullende stijlen voor kleinere schermen, bijvoorbeeld voor iPhone */
     body {
         font-size: 14px;
@@ -42,11 +42,6 @@ h1 {
     display: block;
     padding-bottom: 0.3em;
     border-bottom: 0.15em solid var(--primary-color);
-}
-
-h1.ruimtebody {
-    margin-top: 20em; /* Pas de gewenste margin-top-waarde aan */
-    display: none;
 }
 
 p {
@@ -154,16 +149,22 @@ button#dropdownButton {
 
 .dropdown-menu {
     display: none;
-    width: 414px;
-    position: absolute;
+    /* width: 414px; */
+    /* position: absolute; */
+    height: 0;
+    overflow: hidden;
+    transition: .3s ease-out;
     top: 4.9em; 
     left: 0;
     background-color: #001717;
     padding: 0; 
 }
 
-.dropdown-menu.active {
+.active {
     display: block;
+    height: auto;
+    margin-top: 6em;
+    margin-bottom: -6em;
 }
 
 .dropdown-menu ul {
