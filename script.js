@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () { //Dit is extra!!!
     let dropdownButton = document.getElementById('dropdownButton');
     let dropdownMenu = document.getElementById('dropdownMenu');
-    let container = document.getElementById('container');
+    let ruimte = document.querySelector('ruimtebody');
 });
 
     //Menu komt tevoorschijn!
@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', function () { //Dit is extra!!!
       dropdownMenu.classList.toggle('active');
     };
 
-    // Toggle de weergave van de container wanneer op de knop wordt geklikt
-    dropdownButton.addEventListener('click', ruimte)
-    function ruimte() {
-      container.classList.toggle = ('container.show')
+    // Ruimte tussen nav en h1
+    ruimte.addEventListener('click', ruimtebody)
+    function ruimtebody() {
+      ruimte.classList.toggle = ('ruimtebody')
     };
 
   // // Move the dropdown menu between nav and h1
