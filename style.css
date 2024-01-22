@@ -23,7 +23,7 @@ body {
     overflow-y: auto; /* Toont verticale schuifbalken indien nodig */
 }
 
-.eerstefoto {
+.container-1 {
     display: none;
 }
 
@@ -47,16 +47,6 @@ p {
     font-size: var(--font-size);
     display: block;
 }
-
-.blue-section {
-    height: 21em;
-    background-color: #001717;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    min-height: 20em;
-    max-width: 414px;
-  }
 
 section.profielen {
     max-width: 414px;
@@ -122,17 +112,21 @@ img {
     cursor: pointer;
 }
 
-button#contactformulier {
+a#contactformulier {
     position: absolute;
     left: 14em;
     top: 1.5em;
     width: 10em;
-    border-color: var(--primary-color);
-}
-
-a {
+    border: 0.05em solid;
+    border-radius: 1.5em;
+    background-color: none;
     color: var(--primary-color);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6em;
+    height: 2.5em;
 }
 
 button#dropdownButton {
@@ -197,7 +191,7 @@ button#dropdownButton {
 }
 
 @media only screen and (min-width: 820px){
-    .eerstefoto {
+    .container-1 {
         display: block;
     }
 }
