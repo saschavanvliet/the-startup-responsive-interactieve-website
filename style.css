@@ -48,7 +48,7 @@ p {
     display: block;
 }
 
-section.profielen {
+.profielen {
     max-width: 414px;
     display: flex;
     flex-direction: column;
@@ -137,15 +137,13 @@ button#dropdownButton {
 
 .dropdown-menu {
     display: none;
-    /* width: 414px; */
-    /* position: absolute; */
+    opacity: 0;
     height: 0;
     overflow: hidden;
     top: 4.9em; 
     left: 0;
     background-color: #001717;
     padding: 0; 
-    /* transition: max height 1s ease-out; ???*/
 }
 
 .active {
@@ -153,8 +151,29 @@ button#dropdownButton {
     height: auto;
     margin-top: 6em;
     margin-bottom: -6em;
-    /* transition: max height 1s ease-out; ??? */
+    animation-name: opacity;
+    animation-duration: 0.3s;
+    opacity: 100%;
 }
+
+/* De animatie waardoor de tekst smoother tevoorschijn komt */
+@keyframes opacity {
+    0% {
+        opacity: 0; /* Begint volledig onzichtbaar (1) */
+      }
+      25% {
+        opacity: 0.25; /* Halverwege half doorzichtig maken */
+      }
+      50% {
+        opacity: 0.5
+      }
+      75% {
+        opacity: 0.75
+      }
+      100% {
+        opacity: 1; /* Volledig zichtbaar aan het einde */
+      }
+    }
 
 .dropdown-menu ul {
     list-style: none;
@@ -192,7 +211,24 @@ button#dropdownButton {
 
 @media only screen and (min-width: 820px){
     .container-1 {
-        display: block;
+        display: flex;
+        justify-content: center;
+        max-width: 800px;
+        margin: 0 auto;
+        position: center;
+    }
+
+    .container-1 img {
+        max-width: 100%;
+    }
+    .profielen {
+        max-width: 100%;
+        flex-flow: row wrap;
+        gap: 2em;
+    }
+
+    .profielen img {
+        max-width: 30%;
     }
 }
 /* Voor de grotere site!!

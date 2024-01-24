@@ -14,32 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function () { //Dit is extra!!!
-    let dropdownButton = document.getElementById('dropdownButton');
-    let dropdownMenu = document.getElementById('dropdownMenu');
-    let ruimte = document.querySelector('.ruimtebody');
-});
-
-    //Menu komt tevoorschijn!
+  //Menu komt tevoorschijn!
+    let dropdownButton = document.getElementById('dropdownButton')
     dropdownButton.addEventListener('click', menu)
     function menu() {
       dropdownMenu.classList.toggle('active');
     };
-
-//      // button 10
-// let interface = document.querySelector('a:nth-of-type(10)')
-// let kaas1 = document.querySelector('.kaas1')
-// interface.addEventListener('mouseover', breincelweg)
-// function breincelweg(){
-//   kaas1.classList.toggle('kaas1')
-// }
-    
-
-  // // Move the dropdown menu between nav and h1
-  // if (dropdownMenu.classList.contains('visible')) {
-  //   // Move the dropdown menu after the nav element
-  //   nav.insertAdjacentElement('afterend', dropdownMenu);
-  // } else {
-  //   // Move the dropdown menu back inside the nav element
-  //   nav.appendChild(dropdownMenu);
-  // }
