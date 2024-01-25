@@ -3,6 +3,9 @@ De instructie van de opdracht vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIO
 # Titel
 Een startup website voor Label A
 
+## Live site
+https://saschavanvliet.github.io/the-startup-responsive-interactieve-website/
+
 ## Beschrijving
 We kregen vanuit het bedrijf Label A met een groepje van vier mensen de opdracht om een teampagina te maken van de mensen die werkzaam zijn bij het bedrijf Ace. We kregen hier een sprint de tijd voor (dus drie weken). Vantevoren waren er meerdere bestanden aangeleverd met uitleg, waaronder een figma document en een jason file. In het figma bestand stond een voorbeeld van hoe het bedrijf de site zelf zou vormgeven. Het Jason file was erg handig om alle informatie op de achtergrond te implementeren in de site.
 
@@ -13,8 +16,6 @@ We kregen vanuit het bedrijf Label A met een groepje van vier mensen de opdracht
 - Ik heb mijn code en site laten testen door medeleerlingen
 
 ![image](https://github.com/saschavanvliet/the-startup-responsive-interactieve-website/assets/144007519/54e2fbdc-afdf-4263-87c6-3a0dd5364ac5)
-
-https://saschavanvliet.github.io/the-startup-responsive-interactieve-website/
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
