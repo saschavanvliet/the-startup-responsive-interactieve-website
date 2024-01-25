@@ -1,7 +1,6 @@
 De instructie van de opdracht vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-Een startup website voor Label A
+# Een startup website voor Label A
 
 ## Live site
 https://saschavanvliet.github.io/the-startup-responsive-interactieve-website/
