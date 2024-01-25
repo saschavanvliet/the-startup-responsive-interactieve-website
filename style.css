@@ -1,6 +1,6 @@
 :root {
 --background-color: #171717;
---primary-color: #00D146;
+--primary-color: #00C943;
 --secundary-color: #D1D1D1;
 --font-family: 'Ubuntu', sans-serif;
 --font-size: 14px;
@@ -49,7 +49,6 @@ p {
 }
 
 .profielen {
-    max-width: 414px;
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -68,7 +67,7 @@ section h2 {
 .profielen img {
     margin-bottom: 2em; /* Ruimte tussen de afbeeldingen */
     border-radius: 7%;
-    width: 350px;
+    width: 80%;
 }
 
 .profielen img:first-child {
@@ -101,7 +100,7 @@ button {
 .notfixed {
     position: absolute;
     top: 3em;
-    left: 5em;
+    left: 4.8em;
 }
 
 .visible{
@@ -213,9 +212,11 @@ button#dropdownButton {
     .container-1 {
         display: flex;
         justify-content: center;
-        max-width: 800px;
+        max-width: 90%;
         margin: 0 auto;
-        position: center;
+        margin-bottom: 10em;
+        margin-top: 3em;
+        align-items: center;
     }
 
     .container-1 img {
@@ -225,59 +226,10 @@ button#dropdownButton {
         max-width: 100%;
         flex-flow: row wrap;
         gap: 2em;
+        margin-left: 2em;
     }
 
     .profielen img {
         max-width: 30%;
     }
 }
-/* Voor de grotere site!!
-button {
-    width: 24px;
-    height: 24px;
-}
-
-nav.dropdown-menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: #333;
-}
-
-nav.dropdown-menu ul li {
-    display: inline-block;
-    position: relative;
-}
-
-nav.dropdown-menu ul li a {
-    display: block;
-    padding: 15px 20px;
-    color: white;
-    text-decoration: none;
-}
-
-nav.dropdown-menu ul li:hover {
-    background-color: #555;
-}
-
-nav.dropdown-menu ul li ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 200px;
-    background-color: #333;
-}
-
-nav.dropdown-menu ul li:hover > ul {
-    display: block;
-}
-
-nav.dropdown-menu ul li ul li {
-    display: block;
-    width: 100%;
-}
-
-nav.dropdown-menu ul li ul li a {
-    padding: 10px 15px;
-} */
