@@ -14,6 +14,8 @@ We kregen vanuit het bedrijf Label A met een groepje van vier mensen de opdracht
 - Ik heb html, css en javascript gebruikt om een goede site op visueel gebied op te zetten
 - Ik heb mijn code en site laten testen door medeleerlingen
 
+<img width="307" alt="image" src="https://github.com/saschavanvliet/the-startup-responsive-interactieve-website/assets/144007519/108695e5-c11f-4f1a-903c-ab4e334be1a5">
+
 ![image](https://github.com/saschavanvliet/the-startup-responsive-interactieve-website/assets/144007519/54e2fbdc-afdf-4263-87c6-3a0dd5364ac5)
 
 ## Kenmerken
