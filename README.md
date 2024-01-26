@@ -15,10 +15,8 @@ We kregen vanuit het bedrijf Label A met een groepje van vier mensen de opdracht
 - Ik heb mijn code en site laten testen door medeleerlingen
 
 <img width="307" alt="image" src="https://github.com/saschavanvliet/the-startup-responsive-interactieve-website/assets/144007519/108695e5-c11f-4f1a-903c-ab4e334be1a5">
-![image](https://github.com/saschavanvliet/the-startup-responsive-interactieve-website/assets/144007519/54e2fbdc-afdf-4263-87c6-3a0dd5364ac5)
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 Ik heb gebruik gemaakt van html, css en javascript tijdens het bouwen van mijn website. Ik heb geprobeerd het html bestand zo semantisch mogelijk eruit te laten zien. Met javascript probeer ik mij aan het drie-stappenplan te houden.
 
 ## Inhoudsopgave
