@@ -14,6 +14,9 @@ We kregen vanuit het bedrijf Label A met een groepje van vier mensen de opdracht
 - Ik heb html, css en javascript gebruikt om een goede site op visueel gebied op te zetten
 - Ik heb mijn code en site laten testen door medeleerlingen
 
+Helaas heb ik sommige dingen niet meer kunnen doen door tijdsgebrek. Ik heb wilde bijvoorbeeld ook nog een schaduw toevoegen wanneer je over de plaatjes heen zou hoveren en dit is niet meer gelukt. Zie de backlog voor meer insight in mijn proces:
+https://github.com/users/saschavanvliet/projects/4/views/1
+
 <img width="307" alt="image" src="https://github.com/saschavanvliet/the-startup-responsive-interactieve-website/assets/144007519/108695e5-c11f-4f1a-903c-ab4e334be1a5">
 
 ## Kenmerken
